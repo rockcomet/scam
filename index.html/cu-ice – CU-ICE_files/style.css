@@ -1,0 +1,209 @@
+#wpfid-table, 
+#wpfid-table tr, 
+#wpfid-table td, 
+#wpfid-table #wpfid-form{
+	border-collapse: collapse;
+	background:none;
+	border:none;
+	padding:0;
+	margin:0;
+}
+#wpfid-table button{	
+	color: white;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	font-family: inherit;
+	font-size: 100%;
+	padding: 0.5em 1em;
+	border: 0px none transparent;
+	text-decoration: none;
+	border-radius: 2px;
+	display: inline-block;
+	line-height: normal;
+	white-space: nowrap;
+	vertical-align: baseline;
+	text-align: center;
+	cursor: pointer;
+	-moz-user-select: none;
+	}
+#wpfid-table button:active {
+	position:relative;top:1px;
+}
+
+
+#wpfid-table  > .button{
+  margin: 12px;
+}
+
+#wpfid-table .button{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: 36px;
+  padding: 0 20px;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+  background-clip: padding-box;
+  border: 1px solid;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+#wpfid-table .button:before {
+    background: url("img/icon.png") no-repeat;
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin: 0px 10px 0px -10px;
+  /*content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  background-image: -webkit-radial-gradient(center top, farthest-corner, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  background-image: -moz-radial-gradient(center top, farthest-corner, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  background-image: -o-radial-gradient(center top, farthest-corner, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+  background-image: radial-gradient(center top, farthest-corner, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
+*/
+}
+#wpfid-table .button:hover {
+  background-image: -webkit-radial-gradient(farthest-corner, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.03));
+  background-image: -moz-radial-gradient(farthest-corner, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.03));
+  background-image: -o-radial-gradient(farthest-corner, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.03));
+  background-image: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.03));
+}
+#wpfid-table .button:active {
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+#wpfid-table .button:active:before {
+  /*content: none;*/
+}
+#wpfid-table .none:before {
+  content: none;
+}
+
+#wpfid-table .button-green {
+  background: #5ca934;
+  border-color: #478228 #478228 #3c6f22;
+  background-image: -webkit-linear-gradient(top, #69c03b, #5ca934 66%, #54992f);
+  background-image: -moz-linear-gradient(top, #69c03b, #5ca934 66%, #54992f);
+  background-image: -o-linear-gradient(top, #69c03b, #5ca934 66%, #54992f);
+  background-image: linear-gradient(to bottom, #69c03b, #5ca934 66%, #54992f);
+}
+#wpfid-table .button-green:active {
+  background: #5ca934;
+  border-color: #3c6f22 #478228 #478228;
+}
+
+#wpfid-table .button-red {
+  background: #d5452f;
+  border-color: #ae3623 #ae3623 #992f1f;
+  background-image: -webkit-linear-gradient(top, #da5c48, #d5452f 66%, #c73d28);
+  background-image: -moz-linear-gradient(top, #da5c48, #d5452f 66%, #c73d28);
+  background-image: -o-linear-gradient(top, #da5c48, #d5452f 66%, #c73d28);
+  background-image: linear-gradient(to bottom, #da5c48, #d5452f 66%, #c73d28);
+}
+#wpfid-table .button-red:active {
+  background: #d5452f;
+  border-color: #992f1f #ae3623 #ae3623;
+}
+
+#wpfid-table .button-blue {
+  background: #1097e6;
+  border-color: #0d78b6 #0d78b6 #0b689e;
+  background-image: -webkit-linear-gradient(top, #25a5f0, #1097e6 66%, #0f8ad3);
+  background-image: -moz-linear-gradient(top, #25a5f0, #1097e6 66%, #0f8ad3);
+  background-image: -o-linear-gradient(top, #25a5f0, #1097e6 66%, #0f8ad3);
+  background-image: linear-gradient(to bottom, #25a5f0, #1097e6 66%, #0f8ad3);
+}
+#wpfid-table .button-blue:active {
+  background: #1097e6;
+  border-color: #0b689e #0d78b6 #0d78b6;
+}
+
+#wpfid-table .button-orange {
+  background: #f4902a;
+  border-color: #df770c #df770c #c76a0a;
+  background-image: -webkit-linear-gradient(top, #f69f47, #f4902a 66%, #f38617);
+  background-image: -moz-linear-gradient(top, #f69f47, #f4902a 66%, #f38617);
+  background-image: -o-linear-gradient(top, #f69f47, #f4902a 66%, #f38617);
+  background-image: linear-gradient(to bottom, #f69f47, #f4902a 66%, #f38617);
+}
+#wpfid-table .button-orange:active {
+  background: #f4902a;
+  border-color: #c76a0a #df770c #df770c;
+}
+
+#wpfid-table .button-pink {
+  background: #e8367f;
+  border-color: #d31865 #d31865 #bc165a;
+  background-image: -webkit-linear-gradient(top, #eb5190, #e8367f 66%, #e62473);
+  background-image: -moz-linear-gradient(top, #eb5190, #e8367f 66%, #e62473);
+  background-image: -o-linear-gradient(top, #eb5190, #e8367f 66%, #e62473);
+  background-image: linear-gradient(to bottom, #eb5190, #e8367f 66%, #e62473);
+}
+#wpfid-table .button-pink:active {
+  background: #e8367f;
+  border-color: #bc165a #d31865 #d31865;
+}
+
+#wpfid-table .button-gray {
+  background: #47494f;
+  border-color: #2f3034 #2f3034 #232427;
+  background-image: -webkit-linear-gradient(top, #55585f, #47494f 66%, #3d3f44);
+  background-image: -moz-linear-gradient(top, #55585f, #47494f 66%, #3d3f44);
+  background-image: -o-linear-gradient(top, #55585f, #47494f 66%, #3d3f44);
+  background-image: linear-gradient(to bottom, #55585f, #47494f 66%, #3d3f44);
+}
+#wpfid-table .button-gray:active {
+  background: #47494f;
+  border-color: #232427 #2f3034 #2f3034;
+}
+
+#wpfid-table .button-darkblue {
+  background: #3b5ca0;
+  border-color: #2d477b #2d477b #263c68;
+  background-image: -webkit-linear-gradient(top, #4369b6, #3b5ca0 66%, #365391);
+  background-image: -moz-linear-gradient(top, #4369b6, #3b5ca0 66%, #365391);
+  background-image: -o-linear-gradient(top, #4369b6, #3b5ca0 66%, #365391);
+  background-image: linear-gradient(to bottom, #4369b6, #3b5ca0 66%, #365391);
+}
+#wpfid-table .button-darkblue:active {
+  background: #3b5ca0;
+  border-color: #263c68 #2d477b #2d477b;
+}
+
+#wpfid-table .button-purple {
+  background: #9966cb;
+  border-color: #8040be #8040be #733aab;
+  background-image: -webkit-linear-gradient(top, #a87dd3, #9966cb 66%, #8f57c6);
+  background-image: -moz-linear-gradient(top, #a87dd3, #9966cb 66%, #8f57c6);
+  background-image: -o-linear-gradient(top, #a87dd3, #9966cb 66%, #8f57c6);
+  background-image: linear-gradient(to bottom, #a87dd3, #9966cb 66%, #8f57c6);
+}
+#wpfid-table .button-purple:active {
+  background: #9966cb;
+  border-color: #733aab #8040be #8040be;
+}
+button{
+	padding:5px;	
+	}
+.size{margin-top:5px;font-family:courier;font-size:12px;}
+.wpfid_title{}
+.wpfid_button:before {
+    content: "";
+    display: block;
+    background: url("img/icon.png") no-repeat;
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin: 0 10px 0 -3px;
+
+}
+
